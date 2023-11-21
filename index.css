@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #00C65C 0.15%, #00B778 99.87%);
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 95%;
+  padding: 10px 0 0 20px;
+}
+
+.logo {
+  width: 10%;
+  float: left;
+}
+
+.navbar-text {
+  width: 50%;
+  float: left;
+  padding: 10px 0 0 20px;
+
+  color: white;
+  font: bold 20px 'Montserrat';
+}
+
+.navbar-links-container {
+  width: 40%;
+  float: right;
+  padding-top: 20px;
+
+  position: relative;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+
+.navbar-links a {
+  color: white;
+  font: bold 25px 'Montserrat';
+  text-decoration: none;
+  margin: 30px 38px;
+}
+
+.navbar-links a:first-child {
+  color: #FFA900;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 98%;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+.hero-text-container {
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
+  z-index: 1;
+}
+
+.hero-text {
+  color: white;
+  font: bold 30px 'Montserrat';
+}
+
+.content {
+  width: 98%;
+  height: 280px;
+  margin: auto;
+}
+
+.content-1 {
+  float: left;
+}
+
+.card {
+  width: 49.5%;
+  height: 250px;
+  background: #1E1E1E;
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.image-placeholder {
+  width: 69%;
+  float: left;
+}
+
+.card-content {
+  color: white;
+  font: bold 30px 'Montserrat';
+
+  width: 29%;
+  float: right;
+  padding-top: 15px;
+}
+
+.card-content>h2 {
+  font-size: 19px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+
+.card-content>button {
+  background: #FFA900;
+  border: solid #FFA900;
+  border-radius: 10px;
+  padding: 0 8px;
+  margin-left: 20px;
+}
+
+.card-content>button>a {
+  text-decoration: none;
+  color: white;
+  font: bold 20px 'Montserrat';
+}
+
+.content-2 {
+  float: right;
+}
+
+.footer {
+  height: 110px;
+  background: #1E1E1E;
+  padding: 30px;
+}
+
+.footer h2 {
+  color: white;
+  font: bold 25px 'Montserrat';
+}
+
+.footer>.footer-text {
+  width: 50%;
+  font-size: 20px;
+  float: left;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer>div>h2 {
+  padding-bottom: 10px;
+}
+
+.contact-us {
+  float: right;
+  padding-right: 20px;
+}
+
+.follow-us {
+  float: right;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
